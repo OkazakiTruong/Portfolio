@@ -584,17 +584,17 @@ export default function Home() {
                   <Card
                     hoverable
                     actions={[
-                      <Tooltip title={project.link!=="#" ? "Xem sản phẩm" : "Sản phẩm đang phát triển"}>
+                      <Tooltip title={project.link!=="#" ? t("project.view") : t("project.inDevelopment")}>
                         <a href={project.link} target="_blank" rel="noopener noreferrer">
                         <EyeFilled key="edit"/>
                         </a>
                       </Tooltip>,
-                      <Tooltip title={project.front_link!=="#" ? "Xem source code front-end" : "Hiện không có source code front-end"}>
+                      <Tooltip title={project.front_link!=="#" ? t("project.viewFrontend") : t("project.noFrontendCode")}>
                         <a href={project.front_link} target="_blank" rel="noopener noreferrer">
                           <CodeOutlined key="setting" />
                         </a>
                       </Tooltip>,
-                      <Tooltip title={project.back_link!=="#" ? "Xem source code back-end" : "Hiện không có source code back-end"}>
+                      <Tooltip title={project.back_link!=="#" ? t("project.viewBackend") : t("project.noBackendCode")}>
                         <a href={project.back_link} target="_blank" rel="noopener noreferrer">
                           <DatabaseOutlined key="setting" />
                         </a>
