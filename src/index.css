@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+    font-family: 'Futura';
+    src: url('./assets/fonts/SFUFuturaRegular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Futura';
+}
+:root {
+    --ant-bg-color: #ffffff;
+  }
+  .ant-layout,
+  .ant-card {
+    @apply bg-white dark:bg-gray-900 dark:text-white;
+  }
