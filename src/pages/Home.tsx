@@ -462,19 +462,25 @@ export default function Home() {
                   <FontAwesomeIcon icon={faHtml5} className="text-orange-500 text-2xl hover:scale-110 transition-transform"/>
                   <FontAwesomeIcon icon={faCss3Alt} className="text-blue-500 text-2xl hover:scale-110 transition-transform"/>
                   <FontAwesomeIcon icon={faSass} className="text-red-400 text-2xl hover:scale-110 transition-transform"/>
+                  <img src="/icon/icons8-tailwind-css.svg" alt="typescript" className="w-6 h-6 hover:scale-110 transition-transform"/>
                   <FontAwesomeIcon icon={faSquareJs} className="text-yellow-400 text-2xl hover:scale-110 transition-transform"/>
+                  <img src="/icon/typescript-svgrepo-com.svg" alt="typescript" className="w-[22px] h-[23px] hover:scale-110 transition-transform"/>
                   <FontAwesomeIcon icon={faReact} className="text-blue-500 text-2xl hover:scale-110 transition-transform"/>
+                  <img src="/icon/icons8-nextjs.svg" alt="typescript" className="w-6 h-6 hover:scale-110 transition-transform"/>
                   <FontAwesomeIcon icon={faVuejs} className="text-green-500 text-2xl hover:scale-110 transition-transform"/>
                   <FontAwesomeIcon icon={faNodeJs} className="text-green-500 text-2xl hover:scale-110 transition-transform"/>
+                  <img src="/icon/mongodb-svgrepo-com.svg" alt="typescript" className="w-6 h-6 hover:scale-110 transition-transform"/>
+                  <img src="/icon/postgre.png" alt="typescript" className="w-6 h-6 hover:scale-110 transition-transform"/>
+                  <img src="/icon/postman-icon-svgrepo-com.svg" alt="typescript" className="w-6 h-6 hover:scale-110 transition-transform"/>
                 </div>
               </div>
 
               <div className="flex gap-3 mt-5 flex-wrap">
                 <p className="font-semibold dark:text-gray-200">{t("contact2")}</p>
-                <Button icon={<MessageOutlined />} className="hover:scale-105 transition-transform dark:text-white dark:bg-gray-800">Zalo</Button>
-                <Button icon={<PhoneOutlined />} className="hover:scale-105 transition-transform dark:text-white dark:bg-gray-800" href="tel:0987654321">Phone</Button>
+                <Button icon={<MessageOutlined />} className="hover:scale-105 transition-transform dark:text-white dark:bg-gray-800" href="https://zalo.me/0977354956" target="_blank" rel="noopener noreferrer">Zalo</Button>
+                <Button icon={<PhoneOutlined />} className="hover:scale-105 transition-transform dark:text-white dark:bg-gray-800" href="tel:0977354956">Phone</Button>
                 <Button icon={<MailOutlined/>} className="hover:scale-105 transition-transform dark:text-white dark:bg-gray-800"    href="mailto:buiquangtruong1105@gmail.com">Email</Button> 
-                <Button icon={<FacebookFilled/>} className="hover:scale-105 transition-transform dark:text-white dark:bg-gray-800">Facebook</Button>
+                <Button icon={<FacebookFilled/>} className="hover:scale-105 transition-transform dark:text-white dark:bg-gray-800" href="https://www.facebook.com/buiquang.truong.737/">Facebook</Button>
               </div>  
             </motion.div>
 
@@ -737,14 +743,14 @@ export default function Home() {
               </motion.a>   
               
               <motion.a 
-                href="https://facebook.com/truongbui2002"
+                href="https://www.facebook.com/buiquang.truong.737/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 hover:translate-x-2 transition-all hover:text-blue-500 dark:text-white"
                 whileHover={{scale: 1.02}}
               >
                 <FacebookOutlined className="text-xl text-blue-500" />
-                <span>facebook.com/truongbui2002</span>
+                <span>www.facebook.com/buiquang.truong.737</span>
               </motion.a>   
               
               <motion.a 
@@ -783,35 +789,35 @@ export default function Home() {
           <FloatButton 
             icon={<MessageOutlined />}
             className="hover:scale-110 transition-transform"
-            onClick={() => window.open('https://m.me/truongbui2002')}
+            onClick={() => window.open('https://zalo.me/0977354956')}
           />
         </Tooltip>
         <Tooltip title={t("makeContact.phone")} placement="top">
           <FloatButton 
             icon={<PhoneOutlined />}
             className="hover:scale-110 transition-transform"
-            onClick={() => window.open('tel:0987654321')}
+            onClick={() => window.open('tel:0977354956')}
           />
         </Tooltip>
         <Tooltip title={t("makeContact.email")} placement="top">
           <FloatButton 
             icon={<MailOutlined />}
             className="hover:scale-110 transition-transform"
-            onClick={() => window.open('mailto:truongbui2002@gmail.com')}
+            onClick={() => window.open('mailto:buiquangtruong1105@gmail.com')}
           />
         </Tooltip>
         <Tooltip title="Facebook" placement="top">
           <FloatButton 
             icon={<FacebookOutlined />}
             className="hover:scale-110 transition-transform"
-            onClick={() => window.open('https://facebook.com/truongbui2002')}
+            onClick={() => window.open('https://www.facebook.com/buiquang.truong.737/')}
           />
         </Tooltip>
         <Tooltip title="Github" placement="top">
           <FloatButton 
             icon={<GithubOutlined />}
             className="hover:scale-110 transition-transform"
-            onClick={() => window.open('https://github.com/truongbui2002')}
+            onClick={() => window.open('https://github.com/OkazakiTruong')}
           />
         </Tooltip>
       </FloatButton.Group>
