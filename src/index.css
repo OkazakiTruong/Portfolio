@@ -2,10 +2,10 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @font-face {
-    font-family: 'Futura';
-    src: url('./assets/fonts/SFUFuturaRegular.ttf');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Futura';
+  src: url('/fonts/SFUFuturaRegular.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 body {
     font-family: 'Futura';
