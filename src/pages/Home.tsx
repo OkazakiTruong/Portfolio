@@ -129,8 +129,8 @@ export default function Home() {
       title: t("portfolio"),
       description: t("portfolioTitle"),
       image: "/projects/image4.png",
-      link: "https://okazakitruong.github.io/BQTruong-F8-K2-Offline/Day11/exe01.html",
-      front_link: "https://okazakitruong.github.io/BQTruong-F8-K2-Offline/Day11/exe01.html",
+      link: "https://portfolio-truongs-projects-f604c03d.vercel.app/",
+      front_link: "https://github.com/OkazakiTruong/Portfolio",
       back_link: "#",
       tags: [{
         name: "ReactJs",
@@ -159,8 +159,8 @@ export default function Home() {
       description: t("bitisTitle"),
       image: "/projects/image5.png",
       link: "#",
-      front_link: "https://okazakitruong.github.io/BQTruong-F8-K2-Offline/Day11/exe01.html",
-      back_link: "https://okazakitruong.github.io/BQTruong-F8-K2-Offline/Day11/exe01.html",
+      front_link: "https://github.com/OkazakiTruong/bitis/tree/main/bitis-front/bitis-front",
+      back_link: "https://github.com/OkazakiTruong/bitis/tree/main/bitis-backend",
       tags: [{
         name: "VueJS",
         color: "green"
