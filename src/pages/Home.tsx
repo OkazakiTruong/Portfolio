@@ -21,7 +21,7 @@ import {
   EyeFilled, 
   CodeOutlined, 
   DatabaseOutlined, 
-  SendOutlined 
+  SendOutlined
 } from "@ant-design/icons"
 import { motion } from 'framer-motion'
 import { useEffect, useRef, useState } from "react"
